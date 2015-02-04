@@ -14,7 +14,7 @@
     
     @Author Jorge Rivas
     @mail   jorge.shortys@gmail.com
- */
+ **/
 
 import java.io.*;
 import java.net.*;
