@@ -1,6 +1,3 @@
-import java.io.*;
-import java.net.*;
-
 /**
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -15,6 +12,11 @@ import java.net.*;
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
+import java.io.*;
+import java.net.*;
+
+
 /*
     @Author Jorge Rivas
     @mail   jorge.shortys@gmail.com
@@ -31,7 +33,7 @@ public class NetPort
 	{
 		String host = args.length > 0 ? args[0] : "localhost";
 		
-		for (int i = 25; i < 512; i++)
+		for (int i = 25; i < 10000; i++)
 		{
 			try
 			{
