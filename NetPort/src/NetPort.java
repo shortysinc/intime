@@ -15,7 +15,10 @@ import java.net.*;
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
+/*
+    @Author Jorge Rivas
+    @mail   jorge.shortys@gmail.com
+*/
 /*
  * Este programa muestra las conexiones abiertas en un puerto sobre
  * un host determinado. Por defecto el host es localhost.
